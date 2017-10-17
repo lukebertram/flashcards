@@ -1,21 +1,28 @@
 $(document).ready(function() {
   $("#js-link").click(function() {
-    // $("#javascript-card").removeClass("hidden");
-    $("#javascript-card").toggle("hidden");
+    $("#jquery-card").addClass("hidden");
+    $("#attributes-card").addClass("hidden");
+    $("#javascript-card").toggleClass("hidden");
   });
-});
 
 
-$(document).ready(function() {
+
+
   $("#jquery-link").click(function() {
-    // $("h3#jquery-card").removeClass("hidden");
-    $("#jquery-card").toggle("hidden");
+    $("#javascript-card").addClass("hidden");
+    $("#attributes-card").addClass("hidden");
+    $("#jquery-card").toggleClass("hidden");
+  });
+
+
+
+  $("#attrib-link").click(function() {
+    $("#jquery-card").addClass("hidden");
+    $("#javascript-card").addClass("hidden");
+    $("#attributes-card").toggleClass("hidden");
   });
 });
 
-$(document).ready(function() {
-  $("#attrib-link").click(function() {
-    // $("h3#attributes-card").removeClass("hidden");
-    $("#attributes-card").toggle("hidden");
-  });
-});
+
+// addClass("showing") instead ?
+// removeClass("visible")?

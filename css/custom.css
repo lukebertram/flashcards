@@ -1,3 +1,18 @@
-.initially-hidden {
+/*.initially-hidden {
   display: none;
+}*/
+
+.hidden {
+  display: none;
+}
+
+
+li {
+  cursor: pointer;
+  color: #0088cc;
+  font-size: 2em;
+}
+
+li:hover {
+  color: #ffffff;
 }

@@ -6,7 +6,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/custom.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
-    <script scr="js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
   </head>
   <body>
     <div class="container">
@@ -18,7 +18,7 @@
           <div class="card-header">Term List</div>
           <div class="card-body">
             <ul>
-              <li>JavaScript (JS)</li>
+              <li id="js-link">JavaScript (JS)</li>
               <!-- <li>Operators</li>
               <li>Variables</li>
               <li>Functions</li>
@@ -28,8 +28,8 @@
               <li>Return</li>
               <li>Method Chaining</li> -->
 
-              <li>jQuery</li>
-              <li>Attributes</li>
+              <li id="jquery-link">jQuery</li>
+              <li id="attrib-link">Attributes</li>
             </ul>
           </div>
         </div>
@@ -38,11 +38,11 @@
           <div class="card-header">Flashcard</div>
           <div class="card-body">
 
-            <h3 class="initially-hidden" id="javascript-card">JavaScript is a language used to add functionality to a webpage. Where HTML provides framework and CSS provides style, JavaScript is paving the way for the future of dynamic web page applications.</h3>
+            <h3 class="hidden flashcard" id="javascript-card">JavaScript is a language used to add functionality to a webpage. Where HTML provides framework and CSS provides style, JavaScript is paving the way for the future of dynamic web page applications.</h3>
 
-            <h3 class="initially-hidden" id="jquery-card">jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers</h3>
+            <h3 class="hidden flashcard" id="jquery-card">jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers</h3>
 
-            <h3 class="initially-hidden" id="attributes-card">The getAttribute() method returns the value of the attribute with the specified name, of an element. Tip: Use the getAttributeNode() method if you want to return the attribute as an Attr object.</h3>
+            <h3 class="hidden flashcard" id="attributes-card">The getAttribute() method returns the value of the attribute with the specified name, of an element. Tip: Use the getAttributeNode() method if you want to return the attribute as an Attr object.</h3>
 
           </div>
         </div>
